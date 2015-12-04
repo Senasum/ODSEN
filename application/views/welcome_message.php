@@ -1,175 +1,89 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to CodeIgniter</title>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>Metamorphosis Design Free Css Templates</title>
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-		<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
-		<script type="text/javascript" src="lib/jquery.tools.js"></script>	
-		
-		
-        <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
-    </head>
-    <body>
-        <div id="wrap">
-            <div id="header">
-                <div id="logo">
-                    <h1><a href="#">metamorph_deepocean</a></h1>
-                    <h4><a href="#"><small>Company Slogan Goes Here</small></a></h4>
-                </div>
-                <div id="menu">
-                    <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="gallery.html">Photo Gallery</a></li>
-                        <li><a href="license.html">License</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="prev">
-                 
-				 <div class="scrollable">
-				<div class="items">
-					<div class="item">
-						<div class="header1"></div>                                    
-					</div> <!-- item -->
-					<div class="item">
-					    <div class="header2"></div>						
-					</div> <!-- item -->
-					<div class="item">
-					    <div class="header3"></div>						
-					</div> <!-- item -->
-					<div class="item">
-					    <div class="header4"></div>
-					</div> <!-- item -->				
-					
-				</div> <!-- items -->
-			</div> <!-- scrollable -->
-			<div class="navi"></div> <!-- create automatically the point dor the navigation depending on the numbers of items -->		   
-			  
-                <div style="clear: both"></div>
-            </div>
+	<style type="text/css">
 
-            <div id="content">
-                <div id="column_box">
-                    <div class="column1">
-                        <div class="column_title">
-                            <h1>Company News</h1>
-                        </div>
-                        <div class="col_text">
-                            <p><a href="#">Cras hendrerit est nec libero ornare sagittis. </a><br />
-                                Donec interdum dignissim risus et vestibulum.</p><br />
-                           
-                        </div>
-                    </div>
-                    <div class="column2">
-                        <div class="column_title">
-                            <h1>Your Options</h1>
-                        </div>
-                        <div class="col_text">
-                            <p><a href="#">Cras hendrerit est nec libero ornare sagittis.</a><br />
-                                Donec interdum dignissim risus et vestibulum. </p><br />
-                           
-                        </div>
-                    </div>
-                    <div class="column3">
-                        <div class="column_title">
-                            <h1>New Users</h1>
-                        </div>
-                        <div class="col_text">
-                            <p><a href="#">Cras hendrerit est nec libero ornare sagittis.</a><br />
-                                Donec interdum dignissim risus et vestibulum. </p><br />
-                           
-                        </div>
-                    </div>
-                    <div style="clear: both"></div>
-                </div>
-                <h3>Company Header Goes Here</h3>
-                <div class="index_content_bg">
-                    <div class="index_content_left">
-                        <div class="news_left">
-                            <img src="images/img1.jpg" alt="" title="" style="float: left; padding-right: 15px; padding-bottom: 10px;"/>
-                            <p><a href="#">Cras hendrerit est nec libero ornare sagittis.</a><br />
-                                Donec interdum dignissim risus et vestibulum.<br />
-                                a mauris suscipit porta aliquet turpis interdum. Donec eget nisi id magna tempor laoreet. Etiam </p>
-                            <div class="read"><a href="#"><img src="images/read.png" alt="" title=""/>read more</a></div>
-                        </div>
-                        <div class="news_left" style="clear: both">
-                            <img src="images/img2.jpg" alt="" title="" style="float: left; padding-right: 15px; padding-bottom: 10px;"/>
-                            <p><a href="#"> Donec eget nisi id magna tempor laoreet. </a><br />
-                                Etiam egestas pulvinar nunc, eu dictum est sagittis vel. Vestibulum ante ipsum primis in faucibus<br /><br />
-                                Curae; Integer turpis est, vulputate at cursus a, suscipit quis diam. Cras condimentum metus ut </p>
-                            <div class="read"><a href="#"><img src="images/read.png" alt="" title=""/>read more</a></div>
-                        </div>
-                    </div>
-                    <div class="index_content_right">
-                        <img src="images/img3.jpg" alt="" title="" style="float: left; padding-right: 15px; padding-bottom: 10px;"/>
-                        <p><a href="#">Donec interdum dignissim risus et vestibulum.</a><br />
-                            Donec eget nisi id magna tempor laoreet. Etiam eges<br />
-                            <br />
-                            <a href="#">Aenean convallis ipsum </a><br />
-                            a mauris suscipit porta aliquet turpis interdum. a mauris suscipit porta aliquet turpis interdum. Donec eget nisi id magna tempor laoreet. Etiam egestas pulvinar nunc, eu dictum est sagittis vel. Curae; Integer turpis est, vulputate at cursus a, suscipit quis diam. <br />
-                            <br />
-                            Cras condimentum metus ut neque lobortis condimentum. Aenean ornare turpis eget sapien venenatis sodales nec vitae sem. Lorem ipsum dolor sit
-                        </p>
-                        <div class="read"><a href="#"><img src="images/read.png" alt="" title=""/>read more</a></div>
-                    </div>
-                    <div style="clear: both;"></div>
-                </div>
-            </div>
-            <div class="con_bot"></div>
-            <div id="foot_col">
-                <div class="foot_col1">
-                    <h2>Recent posts</h2>
-                    <div class="foot_pad">
-                        <p><a href="#">Suspendisse rutrum interdum lacinia. </a><br />
-                            Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar mauris, ac vulputate justo pretium quis.
-                        </p>
-                        <br />
-                        <p>
-                            <a href="#">Quisque luctus, mi ornare malesuada </a><br />
-                            Suspendisse tempus aliquet elit sit amet pellentesque. Donec iaculis pulvinar
-                        </p>
-                    </div>
-                </div>
-                <div class="foot_col2">
-                    <h2>Share with Others</h2>
-                    <div class="foot_pad">
-                        <div class="link1"><a href="#">Subscribe to Blog</a></div>
-                        <div class="link2"><a href="#">Be a fan on Facebook</a></div>
-                        <div class="link3"><a href="#">RSS Feed</a></div>
-                        <div class="link4"><a href="#">Follow us on Twitter</a></div>
-                    </div>
-                </div>
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
 
-                <div class="foot_col3">
-                    <h2>Useful Resources</h2>
-                    <div class="foot_pad">
-                        <ul class="ls">
-                            
-                                    <li><a href="#">Curabitur metus sem</a></li>
-                                    <li><a href="#">Quisque varius</a></li>
-                                    <li><a href="#">Duis cursus erat</a></li>
-                                    <li><a href="#">Cras congue, augues</a></li>
-									<li><a href="#">Etiam adipiscing</a></li>
-									<li><a href="#">Suspendisse eget</a></li>
-									<li><a href="#">Sed nec urna in</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer_border_bot"></div>
-            </div>
-            <div id="footer">
-                <div class="red_hr"></div>
-                 <p>Copyright  2012. <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p>
-                    <!-- Please DO NOT remove the following notice --><p>Design by <a href="http://www.metamorphozis.com/free_templates/free_templates.php" title="Free Website Templates">Free Website Templates</a></p><!-- end of copyright notice-->
-            </div>
-        </div>
-    </body>
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body {
+		margin: 0 15px 0 15px;
+	}
+
+	p.footer {
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+
+	#container {
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		box-shadow: 0 0 8px #D0D0D0;
+	}
+	</style>
+</head>
+<body>
+
+<div id="container">
+	<h1>Welcome to CodeIgniter!</h1>
+
+	<div id="body">
+		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+
+		<p>If you would like to edit this page you'll find it located at:</p>
+		<code>application/views/welcome_message.php</code>
+
+		<p>The corresponding controller for this page is found at:</p>
+		<code>application/controllers/Welcome.php</code>
+
+		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+	</div>
+
+	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+</div>
+
+</body>
 </html>
